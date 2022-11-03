@@ -20,6 +20,10 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/SONIC)](https://CRAN.R-project.org/package=SONIC)
 <!-- badges: end -->
 
+Team Member
+
+## Christina
+
 The goal of SONIC is to ...
 
 ## Installation
