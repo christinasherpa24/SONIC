@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 
 Team Member
 
-## Christina
+## Christina Sherpa
 
 The goal of SONIC is to ...
 
