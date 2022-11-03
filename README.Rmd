@@ -20,6 +20,13 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/SONIC)](https://CRAN.R-project.org/package=SONIC)
 <!-- badges: end -->
 
+## Install
+```{r}
+# install.packages("devtools")
+devtools::install_github(christinasherpa24/SONIC)
+```
+
+
 Team Member
 
 ## Christina Sherpa, Sariah Akhdar, Naomi Giancola
@@ -39,7 +46,7 @@ You can install the development version of SONIC like so:
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(SONIC)
+#library(SONIC)
 ## basic example code
 ```
 
