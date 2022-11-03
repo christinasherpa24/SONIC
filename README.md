@@ -22,7 +22,8 @@ The goal of SONIC is to …
 You can install the development version of SONIC like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("christinasherpa24/SONIC")
 ```
 
 ## Example

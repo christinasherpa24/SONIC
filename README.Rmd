@@ -20,11 +20,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/SONIC)](https://CRAN.R-project.org/package=SONIC)
 <!-- badges: end -->
 
-## Install
-```{r}
-# install.packages("devtools")
-devtools::install_github(christinasherpa24/SONIC)
-```
+
 
 
 Team Member
@@ -38,7 +34,8 @@ The goal of SONIC is to ...
 You can install the development version of SONIC like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("christinasherpa24/SONIC")
 ```
 
 ## Example
