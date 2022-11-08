@@ -26,6 +26,10 @@ Team Member
 
 The goal of SONIC is to ...
 
+## Purpose
+
+## Target
+
 ## Installation
 
 You can install the development version of SONIC like so:
