@@ -21,7 +21,7 @@
 #'   \item{x1970_population}{Population of country in 1970}
 #'   \item{area_km2}{Area size of country/territory}
 #'   \item{density_per_km2}{Population density per square km}
-#'   \item{growth_rate}{population growth rate bt country}
+#'   \item{growth_rate}{population growth rate for each country}
 #'   \item{world_population_percentage}{the population for each country}
 #'   ...
 #' }
