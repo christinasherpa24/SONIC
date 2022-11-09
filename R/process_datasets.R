@@ -27,3 +27,24 @@
 #' }
 #' @source <https://www.kaggle.com/datasets/d893bc6eb4370c2fd7b87bcf41972963b607202a1683f576700c52e6ecd4ab2a?resource=download>
 "world_population"
+
+
+#' World Carbon Emissions Dataset
+#'
+#' A subset of data from the World Health Organization Global Tuberculosis
+#' Report ...
+#'
+#' @format ## `carbon_emission`
+#' A data frame with 2.203 rows and 7 columns:
+#' \describe{
+#'   \item{region}{country region number}
+#'   \item{country}{name of country}
+#'   \item{year}{year}
+#'   \item{series}{series}
+#'   \item{value}{number of Co2}
+#'   \item{footnotes}{notes on data}
+#'   \item{source}{source of data}
+#'   ...
+#' }
+#' @source <https://data.un.org/>
+"carbon_emission"
