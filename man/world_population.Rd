@@ -11,7 +11,7 @@ A data frame with 234 rows and 17 columns:
 \describe{
 \item{rank}{rank by population}
 \item{cca3}{Country codes}
-\item{country_territory}{Name of the country/territory
+\item{country_territory}{Name of the country/territory}
 \item{capital}{Capital Name}
 \item{continent}{Continent Name}
 \item{x2022_population}{Population of country in 2022}
