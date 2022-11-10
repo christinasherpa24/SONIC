@@ -32,3 +32,13 @@ world_population <- read_csv("data-raw/world_population.csv") %>%
 
 usethis::use_data(world_population, overwrite = TRUE)
 
+#Naomi's Stuff
+library(tidyverse)
+library(janitor)
+library(readr)
+
+country_boarders <- read_csv("data-raw/GEODATASOURCE-COUNTRY-BORDERS.CSV") %>%
+  clean_names()
+
+usethis::use_data(country_boarders, overwrite = TRUE)
+
