@@ -54,14 +54,14 @@
 #'
 #' A data set containing information about countries that boarder eachother
 #'
-#' @format ## `country_boarders`
+#' @format ## `country_borders`
 #' A data frame with 728 rows and 4 columns:
 #' \describe{
 #'   \item{country_code}{two letter country code}
 #'   \item{country_name}{name of country}
-#'   \item{country_boarder_code}{two letter country code that boarders the country in the first column}
-#'   \item{country_boarder_name}{name of country that boarders the country in the first column}
+#'   \item{country_border_code}{two letter country code that borders the country in the first column}
+#'   \item{country_border_name}{name of country that borders the country in the first column}
 #'   ...
 #' }
 #' @source <https://github.com/geodatasource/country-borders/blob/master/GEODATASOURCE-COUNTRY-BORDERS.CSV>
-"country_boarders"
+"country_borders"

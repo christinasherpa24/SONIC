@@ -1,3 +1,3 @@
-test_that("check number of rows of country_boarders", {
-  expect_equal(nrow(country_boarders), 728)
+test_that("check number of rows of country_borders", {
+  expect_equal(nrow(country_borders), 728)
 })

@@ -37,8 +37,8 @@ library(tidyverse)
 library(janitor)
 library(readr)
 
-country_boarders <- read_csv("data-raw/GEODATASOURCE-COUNTRY-BORDERS.CSV") %>%
+country_borders <- read_csv("data-raw/GEODATASOURCE-COUNTRY-BORDERS.CSV") %>%
   clean_names()
 
-usethis::use_data(country_boarders, overwrite = TRUE)
+usethis::use_data(country_borders, overwrite = TRUE)
 
