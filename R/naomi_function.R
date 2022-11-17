@@ -7,41 +7,21 @@ library(reprex)
 #' @param user_country_name: A country of your choosing from the bordering_countries data set (contains all countries)
 #'
 #' @return a list of countries that border user_country_name
-#' @export
+#'
+#'
+#' @importFrom magrittr "%>%"
+#' @importFrom dplyr "filter"
 #'
 #' @examples
 #'
-#'library(tidyverse)
-#'library(reprex)
 #'library(SONIC)
 #'bordering_countries("Albania")
-#> Albania is bordered by:
-#> Greece
-#> Montenegro
-#> North Macedonia
-#> Serbia
 #'
-#'library(tidyverse)
-#'library(reprex)
 #'library(SONIC)
 #'bordering_countries("China")
-#> China is bordered by:
-#> Afghanistan
-#> Bhutan
-#> Hong Kong
-#> India
-#> Kazakhstan
-#> Korea (Democratic People's Republic of)
-#> Kyrgyzstan
-#> Lao People's Democratic Republic
-#> Macao
-#> Mongolia
-#> Myanmar
-#> Nepal
-#> Pakistan
-#> Russian Federation
-#> Tajikistan
-#> Viet Nam
+#'
+#'
+#' @export
 #'
 bordering_countries <- function(user_country_name){
   country_borders_user <- country_borders %>%
