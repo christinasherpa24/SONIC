@@ -5,7 +5,6 @@
 #'
 #' @return a line graph of co2 emissions throughout the years for a specific country of the user's choice
 #'
-#' @export
 #'
 #' @examples
 #' library(SONIC)
@@ -16,6 +15,7 @@
 #' @importFrom dplyr "filter"
 #' @import ggplot2
 #'
+#' @export
 
 carbon_timeseries<- function(countryinp){
   country_df1 <- carbon_emission %>%
