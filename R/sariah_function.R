@@ -7,9 +7,10 @@
 #'
 #' @importFrom magrittr "%>%"
 #' @importFrom dplyr "filter"
+#' @importFrom dplyr "select"
 #'
 #' @examples
-#' library(SONIC)
+#' library(sonic)
 #' world_function("Albania")
 #'
 #' world_function("Algeria")
