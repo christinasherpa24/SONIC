@@ -37,11 +37,11 @@ The target audience for this package is anyone who is interested in facts about 
 
 ## Installation
 
-You can install the development version of SONIC like so:
+You can install the development version of sonic like so:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("christinasherpa24/SONIC")
+devtools::install_github("christinasherpa24/sonic")
 ```
 ## Package Proposal 
 

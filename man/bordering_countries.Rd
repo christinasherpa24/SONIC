@@ -17,10 +17,10 @@ A function that takes in a country name in quotes ("") and prints a list of the 
 }
 \examples{
 
-library(SONIC)
+library(sonic)
 bordering_countries("Albania")
 
-library(SONIC)
+library(sonic)
 bordering_countries("China")
 
 

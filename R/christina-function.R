@@ -7,7 +7,7 @@
 #'
 #'
 #' @examples
-#' library(SONIC)
+#' library(sonic)
 #' # Say what your function is doing
 #' carbon_timeseries("Albania")
 #'
