@@ -7,7 +7,7 @@
 \format{
 \subsection{\code{carbon_emission}}{
 
-A data frame with 2.203 rows and 7 columns:
+A data frame with 2,203 rows and 7 columns:
 \describe{
 \item{region}{country region number}
 \item{country}{name of country}
