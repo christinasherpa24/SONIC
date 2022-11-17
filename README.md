@@ -11,11 +11,26 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/SONIC)](https://CRAN.R-project.org/package=SONIC)
 <!-- badges: end -->
 
-Team Member
+## Team Members
 
-## Christina Sherpa, Sariah Akhdar, Naomi Giancola
+Christina Sherpa, Sariah Akhdar, Naomi Giancola
 
-The goal of SONIC is to …
+## Purpose
+
+The purpose of this package is to provide information about the
+countries of the world. The functions serve two purposes. First, gain
+information about a specific country. Second, gain information about a
+specific issue for all countries (ex: abortion access or environmental
+issues).
+
+## Target
+
+The target audience for this package is anyone who is interested in
+facts about the world. Specifically, we are aiming to appeal to people
+who play games such as the Worldle and Globle. Additionally, this
+package can be used by people who are looking for information from all
+countries for a specific issue or issues surrounding a region
+(neighboring countries).
 
 ## Installation
 
@@ -26,38 +41,11 @@ You can install the development version of SONIC like so:
 devtools::install_github("christinasherpa24/SONIC")
 ```
 
-## Example
+## Package Proposal
 
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-#library(SONIC)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+We intend to create a package that will allow users to get information
+about a variety of issues for specific countries. So far, we have
+information about geography (bordering countries), carbon emissions, and
+population (from 2000-2022). We plan to add much more information such
+as women’s right which can include aspects such as a women’s right to
+vote or access to abortion as well as LGBTQ+ matters.
