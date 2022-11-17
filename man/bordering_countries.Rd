@@ -17,14 +17,11 @@ A function that takes in a country name in quotes ("") and prints a list of the 
 }
 \examples{
 
-library(tidyverse)
-library(reprex)
 library(SONIC)
 bordering_countries("Albania")
 
-library(tidyverse)
-library(reprex)
 library(SONIC)
 bordering_countries("China")
+
 
 }
