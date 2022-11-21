@@ -46,6 +46,6 @@ devtools::install_github("christinasherpa24/SONIC")
 We intend to create a package that will allow users to get information
 about a variety of issues for specific countries. So far, we have
 information about geography (bordering countries), carbon emissions, and
-population (from 2000-2022). We plan to add much more information such
+population (from 1970-2022). We plan to add much more information such
 as women’s right which can include aspects such as a women’s right to
 vote or access to abortion as well as LGBTQ+ matters.
