@@ -10,7 +10,8 @@ carbon_emission <- read.csv("data-raw/UN_Carbon_Emission_Estimates.csv") %>%
          "value" = "X.2",
          "footnotes" = "X.3",
          "source" = "X.4") %>%
-  clean_names()
+  clean_names() %>%
+  mutate(footnotes = str_replace(footnotes, "é", "e"))
 
 carbon_emission = carbon_emission[-1,]
 
