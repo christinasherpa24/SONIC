@@ -6,7 +6,7 @@
 #' @format ## `world_population`
 #' A data frame with 234 rows and 17 columns:
 #' \describe{
-#'   \item{rank}{rank by population}
+#'   \item{rank}{Rank by population}
 #'   \item{cca3}{Country codes}
 #'   \item{country_territory}{Name of the country/territory}
 #'   \item{capital}{Capital Name}
@@ -21,8 +21,8 @@
 #'   \item{x1970_population}{Population of country in 1970}
 #'   \item{area_km2}{Area size of country/territory}
 #'   \item{density_per_km2}{Population density per square km}
-#'   \item{growth_rate}{population growth rate for each country}
-#'   \item{world_population_percentage}{the population for each country}
+#'   \item{growth_rate}{Population growth rate for each country}
+#'   \item{world_population_percentage}{Percentage of world population for each country}
 #'   ...
 #' }
 #' @source <https://www.kaggle.com/datasets/d893bc6eb4370c2fd7b87bcf41972963b607202a1683f576700c52e6ecd4ab2a?resource=download>

@@ -62,8 +62,10 @@ library(sonic)
 carbon_timeseries("Nepal")
 ```
 
+The function **world_function** takes in a country name that a user inputs, and returns the population of the chosen country in 2000, 2010,2015 and 2020. 
 ```{r ex3}
-
+library(sonic)
+world_function("Algeria")
 ```
 
 ## Package Proposal 
