@@ -15,8 +15,12 @@ carbon_emission <- read.csv("data-raw/UN_Carbon_Emission_Estimates.csv") %>%
 carbon_emission = carbon_emission[-1,]
 
 
-
 usethis::use_data(carbon_emission, overwrite = TRUE)
+
+
+
+
+
 
 
 
