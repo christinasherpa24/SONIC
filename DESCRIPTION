@@ -14,15 +14,7 @@ Roxygen: list(markdown = TRUE)
 Imports:
     magrittr,
     dplyr,
-    tibble,
-    janitor,
-    ggplot2,
-    purrr,
-    stringr,
-    broom (>= 0.4.3),
-    formula.tools,
-    knitr,
-    rlang (>= 0.2.0)
+    ggplot2
 RoxygenNote: 7.2.1
 Depends: 
     R (>= 2.10)

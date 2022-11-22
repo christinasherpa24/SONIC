@@ -7,7 +7,7 @@
 bordering_countries(user_country_name)
 }
 \arguments{
-\item{user_country_name:}{A country of your choosing from the bordering_countries data set (contains all countries)}
+\item{user_country_name}{: A country of your choosing from the bordering_countries data set (contains all countries)}
 }
 \value{
 a list of countries that border user_country_name
