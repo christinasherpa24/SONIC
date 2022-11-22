@@ -23,9 +23,16 @@ carbon_timeseries<- function(countryinp){
   country_df2 <- country_df1[!duplicated(country_df1$year), ]
 
 
-  ggplot(data=country_df2, aes(x=year, y=value, group = 1)) +
+  carbon_plot<-ggplot(data=country_df2, aes(x=year, y=value, group = 1)) +
     geom_line() +
-    geom_point()
+    geom_point() +
+    ggtitle("Carbon Emissions Time Series") +
+    xlab("Year") + ylab("Carbon Emissions (thousand metric tons) ")
+
+
+  total_emissions = sum(country_df2$value)
+
+  return(list(carbon_plot, total_emissions))
 
 }
 
