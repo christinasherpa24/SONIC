@@ -20,7 +20,7 @@ A data frame with 234 rows and 17 columns:
 \item{x2010_population}{Population of country in 2010}
 \item{x2000_population}{Population of country in 2000}
 \item{x1990_population}{Population of country in 1990}
-\item{x1980_population}Population of country in 1980}
+\item{x1980_population}{Population of country in 1980}
 \item{x1970_population}{Population of country in 1970}
 \item{area_km2}{Area size of country/territory}
 \item{density_per_km2}{Population density per square km}
