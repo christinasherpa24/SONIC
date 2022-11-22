@@ -43,6 +43,29 @@ You can install the development version of sonic like so:
 # install.packages("devtools")
 devtools::install_github("christinasherpa24/sonic")
 ```
+
+
+## Examples
+
+Here are examples of how to run our functions and what they do. 
+
+This is an example of the function **bordering_countries**. It allows users to enter a country name, for example "Albania" and then it will return a list of all the countries that border that country.
+
+```{r ex1}
+library(sonic)
+bordering_countries("Albania")
+```
+
+The function **carbon_timeseries** takes in a country name such as "Nepal" and returns a line graph on the trend of carbon emissions throughout the years and also lists out the total carbon emissions.
+```{r ex2}
+library(sonic)
+carbon_timeseries("Nepal")
+```
+
+```{r ex3}
+
+```
+
 ## Package Proposal 
 
 We intend to create a package that will allow users to get information about a variety of issues for specific countries. So far, we have information about geography (bordering countries), carbon emissions, and population (from 2000-2022). We plan to add much more information such as women's right which can include aspects such as a women's right to vote or access to abortion as well as LGBTQ+ matters. 
