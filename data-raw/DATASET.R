@@ -1,7 +1,8 @@
-## code to prepare `DATASET` dataset goes here
-
 library(tidyverse)
 library(janitor)
+
+#carbon_emission
+
 carbon_emission <- read.csv("data-raw/UN_Carbon_Emission_Estimates.csv") %>%
   rename("region" = "T27",
          "country" = "CO2.emission.estimates",
@@ -22,28 +23,25 @@ carbon_emission = carbon_emission[-1,]
 
 usethis::use_data(carbon_emission, overwrite = TRUE)
 
-
-
-
-#sariah's stuff
-
-
-## code to prepare `DATASET` dataset goes here
-library(tidyverse)
-library(janitor)
+#world_population
 
 world_population <- read_csv("data-raw/world_population.csv") %>%
   clean_names()
 
 usethis::use_data(world_population, overwrite = TRUE)
 
-#Naomi's Stuff
-library(tidyverse)
-library(janitor)
-library(readr)
+#country_borders
 
-country_borders <- read_csv("data-raw/GEODATASOURCE-COUNTRY-BORDERS.CSV") %>%
+country_borders <- read.csv("data-raw/GEODATASOURCE-COUNTRY-BORDERS.CSV") %>%
   clean_names()
 
 usethis::use_data(country_borders, overwrite = TRUE)
+
+#lgbtq_acceptance
+
+lgbtq_acceptance <- read.csv("data-raw/GAI-Data-Download-2000-2020.csv") %>%
+  clean_names()
+
+usethis::use_data(lgbtq_acceptance, overwrite = TRUE)
+
 
