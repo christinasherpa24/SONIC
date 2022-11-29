@@ -24,6 +24,6 @@ A data frame with 728 rows and 4 columns:
 country_borders
 }
 \description{
-A data set containing information about countries that boarder eachother
+A data set containing information about countries that boarder each other
 }
 \keyword{datasets}
