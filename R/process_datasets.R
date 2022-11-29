@@ -52,7 +52,7 @@
 
 #' Country Boarders Dataset
 #'
-#' A data set containing information about countries that boarder eachother
+#' A data set containing information about countries that boarder each other
 #'
 #' @format ## `country_borders`
 #' A data frame with 728 rows and 4 columns:
@@ -65,3 +65,22 @@
 #' }
 #' @source <https://github.com/geodatasource/country-borders/blob/master/GEODATASOURCE-COUNTRY-BORDERS.CSV>
 "country_borders"
+
+
+#' LGBTQ+ Acceptance Dataset
+#'
+#' A data set containing information about the acceptance of LGBTQ+ peoples:
+#' Social attitudes can heavily influence whether LGBT people are accepted or rejected by employers,
+#' family members, teachers, clergy, and society as a whole. The Global Acceptance Index (GAI) uses data
+#' from more than 2,750 surveys conducted over 30 years to measure changing levels of acceptance toward
+#' LGBT people and issues in 175 countries. The GAI provides each nation with a score of 0 to 10 to indicate their level of acceptance.
+#'
+#' @format ## `lgbtq_acceptance`
+#' A data frame with 174 rows and 2 columns:
+#' \describe{
+#'   \item{country_name}{name of country}
+#'   \item{gai}{The Global Acceptance Index of the country taken in the range of 2017-2020}
+#'   ...
+#' }
+#' @source <https://williamsinstitute.law.ucla.edu/projects/gai/>
+"lgbtq_acceptance"
