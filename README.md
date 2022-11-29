@@ -75,11 +75,25 @@ carbon_timeseries("Nepal")
     #> [[2]]
     #> [1] 69231
 
+The function **world_function** takes in a country name that a user
+inputs, and returns the population of the chosen country in 2000,
+2010,2015 and 2020.
+
+``` r
+library(sonic)
+world_function("Algeria")
+#> # A tibble: 1 × 5
+#>   country_territory x2020_population x2015_population x2010_population x2000_p…¹
+#>   <chr>                        <dbl>            <dbl>            <dbl>     <dbl>
+#> 1 Algeria                   43451666         39543154         35856344  30774621
+#> # … with abbreviated variable name ¹​x2000_population
+```
+
 ## Package Proposal
 
 We intend to create a package that will allow users to get information
 about a variety of issues for specific countries. So far, we have
 information about geography (bordering countries), carbon emissions, and
 population (from 2000-2022). We plan to add much more information such
-as women’s right which can include aspects such as a women’s right to
+as women’s rights which can include aspects such as a women’s right to
 vote or access to abortion as well as LGBTQ+ matters.
