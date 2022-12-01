@@ -84,3 +84,38 @@
 #' }
 #' @source <https://williamsinstitute.law.ucla.edu/projects/gai/>
 "lgbtq_acceptance"
+
+
+
+
+
+
+#' Historial Olympics Dataset: 1896 - 2016
+#'
+#' A subset of data from the World Health Organization Global Tuberculosis
+#' Report ...
+#'
+#' @format ## `historical_olympics`
+#' A data frame with 2,203 rows and 7 columns:
+#' \describe{
+#'   \item{id}{Player ID}
+#'   \item{name}{Player Name}
+#'   \item{sex}{Player Sex}
+#'   \item{age}{Player age}
+#'   \item{height}{Player height}
+#'   \item{weight}{Player weight}
+#'   \item{team}{Player team country}
+#'   \item{noc}{Country code}
+#'   \item{games}{Summer vs. Winter games}
+#'   \item{year}{Olympic year}
+#'   \item{season}{Olympic season}
+#'   \item{city}{Hosting city}
+#'   \item{sport}{Sport}
+#'   \item{event}{Olympic event}
+#'   \item{medal}{Medal won by player}
+#'   ...
+#' }
+#' @source <https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results>
+"historical_olympics"
+
+

@@ -44,4 +44,9 @@ lgbtq_acceptance <- read.csv("data-raw/GAI-Data-Download-2000-2020.csv") %>%
 
 usethis::use_data(lgbtq_acceptance, overwrite = TRUE)
 
+#olympics data
 
+historical_olympics <- read.csv("data-raw/olympics_data.csv") %>%
+  clean_names()
+
+usethis::use_data(historical_olympics, overwrite = TRUE)

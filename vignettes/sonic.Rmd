@@ -1,0 +1,23 @@
+---
+title: "sonic"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{sonic}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(sonic)
+
+```
+
+
+This is my vignette!
