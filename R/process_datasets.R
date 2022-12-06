@@ -84,3 +84,61 @@
 #' }
 #' @source <https://williamsinstitute.law.ucla.edu/projects/gai/>
 "lgbtq_acceptance"
+
+
+
+
+
+
+#' Historial Olympics Dataset: 1896 - 2016
+#'
+#' A subset of data from the World Health Organization Global Tuberculosis
+#' Report ...
+#'
+#' @format ## `historical_olympics`
+#' A data frame with 2,203 rows and 7 columns:
+#' \describe{
+#'   \item{id}{Player ID}
+#'   \item{name}{Player Name}
+#'   \item{sex}{Player Sex}
+#'   \item{age}{Player age}
+#'   \item{height}{Player height}
+#'   \item{weight}{Player weight}
+#'   \item{team}{Player team country}
+#'   \item{noc}{Country code}
+#'   \item{games}{Summer vs. Winter games}
+#'   \item{year}{Olympic year}
+#'   \item{season}{Olympic season}
+#'   \item{city}{Hosting city}
+#'   \item{sport}{Sport}
+#'   \item{event}{Olympic event}
+#'   \item{medal}{Medal won by player}
+#'   ...
+#' }
+#' @source <https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results>
+"historical_olympics"
+
+
+#' World Happiness data set
+#'
+#' Data set containing information pertaining to world happiness and statistics on some factors that may influence its ratings
+#'
+#' @format ## `world_happiness`
+#' A data frame with 2089 rows and 12 columns:
+#' \describe{
+#'   \item{country_name}{Name of country}
+#'   \item{year}{Year}
+#'   \item{life_ladder}{self rating of life}
+#'   \item{log_gdp_per_capita}{Capital Name}
+#'   \item{social_support}{Social Support}
+#'   \item{healthy_life_expectancy_at_birth}{Life Expectancy at birth}
+#'   \item{freedom_to_make_life_choices}{Freedom}
+#'   \item{generosity}{Generosity}
+#'   \item{perceptions_of_corruption}{existence of corruption}
+#'   \item{positive_affect}{Positive effect}
+#'   \item{Negative Effect}{Negative effect}
+#'   \item{confidence_in_national_government}{Confidence in government}
+#'   ...
+#' }
+#' @source <https://www.kaggle.com/datasets/whenamancodes/world-happiness-report>
+"world_happiness"
