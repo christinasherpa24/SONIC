@@ -9,6 +9,7 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/SONIC)](https://CRAN.R-project.org/package=SONIC)
+[![R-CMD-check](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 ## Team Members
@@ -66,16 +67,16 @@ throughout the years and also lists out the total carbon emissions.
 ``` r
 library(sonic)
 carbon_timeseries("Nepal")
-#> [[1]]
+#> $plot
 ```
 
 <img src="man/figures/README-ex2-1.png" width="100%" />
 
     #> 
-    #> [[2]]
+    #> $total_emissions
     #> [1] 69231
 
-The function **world_function** takes in a country name that a user
+The function **country_population** takes in a country name that a user
 inputs, and returns the population of the chosen country in 2000,
 2010,2015 and 2020.
 
