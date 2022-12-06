@@ -35,7 +35,10 @@ usethis::use_data(world_population, overwrite = TRUE)
 #country_borders
 
 country_borders <- read.csv("data-raw/GEODATASOURCE-COUNTRY-BORDERS.CSV") %>%
-  clean_names()
+  clean_names() %>%
+  mutate(country_name = str_replace(country_name, "Cote d’Ivoire", "Cote dIvoire")) %>%
+  mutate(country_border_name = str_replace(country_border_name, "Cote d’Ivoire", "Cote dIvoire"))
+
 
 usethis::use_data(country_borders, overwrite = TRUE)
 
