@@ -19,7 +19,7 @@
 #'
 #'
 #
-world_function <- function(X){
+country_population <- function(X){
   population_user <- world_population %>%
     filter(country_territory == X) %>%
     select(country_territory, population_2020, population_2015, population_2010, population_2000)
