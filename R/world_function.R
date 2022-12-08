@@ -10,7 +10,7 @@
 #' @importFrom dplyr "select"
 #'
 #' @examples
-#' library(sonic)
+#' library(genworld)
 #' world_function("Albania")
 #'
 #' world_function("Algeria")

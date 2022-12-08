@@ -16,7 +16,7 @@ a line graph of co2 emissions throughout the years for a specific country of the
 this function takes in a country from the carbon_emission data set and returns a line graph of co2 emissions throughout the years
 }
 \examples{
-library(sonic)
+library(genworld)
 # Say what your function is doing
 carbon_timeseries("Albania")
 
