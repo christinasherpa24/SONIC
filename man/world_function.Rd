@@ -16,7 +16,7 @@ a numeric vector that is the population of a country/territory for the years 200
 This function takes in a a country/territory and returns the population of the country for the years 2000, 2010,2015 and 2022
 }
 \examples{
-library(sonic)
+library(genworld)
 world_function("Albania")
 
 world_function("Algeria")

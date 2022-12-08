@@ -14,10 +14,10 @@ library(reprex)
 #'
 #' @examples
 #'
-#'library(sonic)
+#'library(genworld)
 #'bordering_countries("Albania")
 #'
-#'library(sonic)
+#'library(genworld)
 #'bordering_countries("China")
 #'
 #'
