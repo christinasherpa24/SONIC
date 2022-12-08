@@ -66,7 +66,7 @@ carbon_timeseries("Nepal")
 The function **country_population** takes in a country name that a user inputs, and returns the population of the chosen country in 2000, 2010,2015 and 2020. 
 ```{r ex3}
 library(genworld)
-world_function("Algeria")
+country_population("Algeria")
 ```
 
 ## Package Proposal 
