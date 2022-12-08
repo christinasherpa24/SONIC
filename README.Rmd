@@ -13,12 +13,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# SONIC
+# genworld
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/SONIC)](https://CRAN.R-project.org/package=SONIC)
-[![R-CMD-check](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml)
+[![CRAN status](https://www.r-pkg.org/badges/version/genworld)](https://CRAN.R-project.org/package=genworld)
+[![R-CMD-check](https://github.com/christinasherpa24/genworld/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christinasherpa24/genworld/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 
@@ -38,11 +38,11 @@ The target audience for this package is anyone who is interested in facts about 
 
 ## Installation
 
-You can install the development version of sonic like so:
+You can install the development version of genworld like so:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("christinasherpa24/sonic")
+devtools::install_github("christinasherpa24/genworld")
 ```
 
 
@@ -53,19 +53,19 @@ Here are examples of how to run our functions and what they do.
 This is an example of the function **bordering_countries**. It allows users to enter a country name, for example "Albania" and then it will return a list of all the countries that border that country.
 
 ```{r ex1}
-library(sonic)
+library(genworld)
 bordering_countries("Albania")
 ```
 
 The function **carbon_timeseries** takes in a country name such as "Nepal" and returns a line graph on the trend of carbon emissions throughout the years and also lists out the total carbon emissions.
 ```{r ex2}
-library(sonic)
+library(genworld)
 carbon_timeseries("Nepal")
 ```
 
 The function **country_population** takes in a country name that a user inputs, and returns the population of the chosen country in 2000, 2010,2015 and 2020. 
 ```{r ex3}
-library(sonic)
+library(genworld)
 world_function("Algeria")
 ```
 
