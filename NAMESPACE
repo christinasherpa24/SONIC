@@ -3,7 +3,7 @@
 export(bordering_countries)
 export(carbon_timeseries)
 export(countries_lgbt_acceptance)
-export(world_function)
+export(country_population)
 import(ggplot2)
 importFrom(dplyr,"filter")
 importFrom(dplyr,"select")
