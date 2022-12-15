@@ -21,6 +21,8 @@ Title
 library(genworld)
 # Say what your function is doing
 team_sport_medal_info("China")
+
+
 team_medal_info("Saudi Arabia")
 
 

@@ -31,6 +31,7 @@ athlete_info<- function(athlete_inp){
     filter(name == athlete_inp) %>%
     select(name, event,  games, city, medal)
   athlete_inp<-as.data.frame(athlete_inp)
+
   return(athlete_dataset)
 }
 

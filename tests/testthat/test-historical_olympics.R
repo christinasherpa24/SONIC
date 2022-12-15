@@ -3,7 +3,7 @@ test_that("athlete info check dataset rows", {
 })
 
 
-test_that("athlete info check dataset rows", {
+test_that("athlete info check dataset rows ", {
   expect_equal(nrow(athlete_info("Nesar Ahmad Bahawi")),2)
 })
 
