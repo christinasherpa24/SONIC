@@ -22,7 +22,7 @@ this function takes in a a country/territory and returns the population of the c
 This function takes in a a country/territory and returns the population of the country for the years 2000, 2010,2015 and 2022
 }
 \examples{
-library(genworld)
+library(sonic)
 world_function("Albania")
 
 world_function("Algeria")
@@ -30,7 +30,7 @@ world_function("Algeria")
 world_function("Afghanistan")
 
 
-library(sonic)
+library(genworld)
 world_function("Albania")
 
 world_function("Algeria")
