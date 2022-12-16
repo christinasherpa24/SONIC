@@ -1,11 +1,10 @@
-#for historical olympics
 
+globalVariables(c( "medal", "team", "sport", "year", "value", "total_med"))
 
 #' Title
-#'
-#' @param athlete_inp: input athlete name
 
 #' @param team_inp: input team name
+
 #'
 #' @return returns data set and graphs given the function
 #'
@@ -21,20 +20,10 @@
 #' @examples
 #' library(genworld)
 #' # Say what your function is doing
-#' team_sport_medal_info("China")
-#' team_medal_info("Saudi Arabia")
-#'
+#' team_medal_info("United States")
 #'
 #' @export
 
-athlete_info<- function(athlete_inp){
-  athlete_dataset<-historical_olympics %>%
-    filter(name == athlete_inp) %>%
-    select(name, event,  games, city, medal)
-  athlete_inp<-as.data.frame(athlete_inp)
-
-  return(athlete_dataset)
-}
 
 
 team_medal_info<- function(team_inp){
@@ -57,31 +46,3 @@ team_medal_info<- function(team_inp){
 
   return(list(team_plot, total_row))
 }
-
-team_sport_medal_info<- function( team_inp){
-  sport_dataset<-historical_olympics %>%
-    filter(team == team_inp) %>%
-    na.omit() %>%
-    add_column(value = 1) %>%
-    group_by( team, sport) %>%
-    summarise(total_med = sum(value))
-
-  sport_plot<-ggplot(sport_dataset, aes( y= total_med, x=sport)) +
-    geom_bar(position="stack", stat="identity")+
-    geom_text(aes(label = total_med), vjust = 1.5, size = 2)+
-    ggtitle("Total medal for sports: ", team_inp) +
-    xlab("Sport") + ylab("Medals Won") +
-    theme(axis.text.x = element_text(angle = 90))
-
-  total_row<- nrow(sport_dataset)
-
-  return(list(sport_plot, total_row))
-
-}
-
-
-
-
-
-
-
