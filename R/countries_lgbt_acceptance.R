@@ -21,4 +21,14 @@ countries_lgbt_acceptance <- function(user_country_name){
     filter(country_name == user_country_name)
   return(lgbtq_acceptance)
 }
+library(ggplot2)
 
+ggplot(lgbtq_acceptance, aes(country_name, gai))+
+  geom_point()
+
+lgbtq_acceptance
+
+# ggplot(output_table, aes(param_choice, total_emissions))+
+#   geom_line()+
+#   geom_point(data=df, aes(x=param_choice, y=total_emissions), size = 5, colour="#0054A4")+
+#   labs(title="Comparison of parameter levels for transit_dist_pct_change", subtitle="", x="Parameter Level", y="CO2 emission (in tonnes)")
