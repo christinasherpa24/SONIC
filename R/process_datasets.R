@@ -142,3 +142,38 @@
 #' }
 #' @source <https://www.kaggle.com/datasets/whenamancodes/world-happiness-report>
 "world_happiness"
+
+
+
+#' Jewish Deaths Data Set
+#'
+#' Data set containing information pertaining to Jewish deaths in Europe from the Holocaust
+#'
+#' @format ## `jewish_deaths`
+#' A data frame with 44 rows and 3 columns:
+#' \describe{
+#'   \item{country}{Name of country}
+#'   \item{number}{Number of Jewish people}
+#'   \item{type}{whether the number in the number column pertains to Jews alive before the war or Jews killed in the Holocaust}
+#'   ...
+#' }
+#' @source <https://www.statista.com/statistics/1070564/jewish-populations-deaths-by-country/>
+"jewish_deaths"
+
+
+
+#' COVID vaccinations data set
+#'
+#' Data set containing COVID daily vaccinations rom 2020-2022, separated by each country.
+#'
+#' @format ## `covid_vaccinations`
+#' A data frame with 145221 rows and 3 columns:
+#' \describe{
+#'   \item{location}{Country where vaccine was administrated}
+#'   \item{date}{Date of vaccine}
+#'   \item{daily_vaccinations}{Number of doses administered daily}
+#'   ...
+#' }
+#' @source <https://www.kaggle.com/datasets/rsrishav/covid-vaccination-dataset>
+"covid_vaccinations"
+
