@@ -1,3 +1,5 @@
+globalVariables(c("country", "year", "value"))
+
 #' Title
 #'
 #' @description this function takes in a country from the carbon_emission data set and returns a line graph of co2 emissions throughout the years
@@ -13,11 +15,13 @@
 #' @importFrom magrittr "%>%"
 #' @importFrom dplyr "filter"
 #' @import ggplot2
+#' @importFrom stats "na.omit"
 #'
 #' @export
 
 carbon_timeseries<- function(countryinp){
   country_df1 <- carbon_emission %>%
+    na.omit() %>%
     filter(country == countryinp)
   country_df2 <- country_df1[!duplicated(country_df1$year), ]
 

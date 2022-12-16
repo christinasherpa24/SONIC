@@ -23,21 +23,34 @@ test_that("rows in total team_medal_info for Italy", {
 })
 
 
-test_that("rows in total team_medal_info for China", {
+test_that("rows in total team_sport_medal_info for China", {
   test <- team_sport_medal_info("China")
   expect_equal(test[[2]],34 )
 })
 
-test_that("rows in total team_medal_info for USA", {
+test_that("rows in total team_sport_medal_info for USA", {
+  test <- team_sport_medal_info("United States")
+  expect_equal(test[[2]],42 )
+})
+
+test_that("rows in total team_sport_medal_info for USA", {
   test <- team_sport_medal_info("United States")
   expect_equal(test[[2]],42 )
 })
 
 
+sport_medal_info
 
 
+test_that("rows in total sport_medal_info for USA Basketball", {
+  test <- sport_medal_info("United States", "Basketball")
+  expect_equal(test[[2]],18 )
+})
 
-
+test_that("rows in total sport_medal_info for USA swimming", {
+  test <- sport_medal_info("United States", "Swimming")
+  expect_equal(test[[2]],23 )
+})
 
 
 
