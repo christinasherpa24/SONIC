@@ -5,9 +5,8 @@
 #'
 #' @return a line graph of co2 emissions throughout the years for a specific country of the user's choice
 #'
-#'
 #' @examples
-#' library(sonic)
+#' library(genworld)
 #' # Say what your function is doing
 #' carbon_timeseries("Albania")
 #'

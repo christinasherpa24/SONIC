@@ -13,18 +13,20 @@ globalVariables(c("country_borders", "country_name"))
 #'
 #' @examples
 #'
-#'library(sonic)
+#'library(genworld)
 #'bordering_countries("Albania")
 #'
-#'library(sonic)
+#'library(genworld)
 #'bordering_countries("China")
 #'
 #'
 #' @export
 #'
+
 bordering_countries <- function(user_country_name){
   country_borders_user <- country_borders %>%
     filter(country_name == user_country_name)
 return(country_borders_user)
 }
+
 

@@ -1,8 +1,8 @@
 ---
-title: "sonic"
+title: "genworld"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{sonic}
+  %\VignetteIndexEntry{genworld}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(sonic)
+library(genworld)
 
 ```
 

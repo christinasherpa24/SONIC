@@ -26,7 +26,11 @@ usethis::use_data(carbon_emission, overwrite = TRUE)
 #world_population
 
 world_population <- read_csv("data-raw/world_population.csv") %>%
-  clean_names()
+  clean_names() %>%
+  rename(population_2022 = x2022_population, population_2020 = x2020_population,
+         population_2015 = x2015_population, population_2010 = x2010_population,
+         population_2000 = x2000_population, population_1990 = x1990_population,
+         population_1980  = x1980_population, population_1970 = x1970_population)
 
 usethis::use_data(world_population, overwrite = TRUE)
 

@@ -17,10 +17,10 @@ A function that takes in a country name in quotes ("") and returns a dataset of 
 }
 \examples{
 
-library(sonic)
+library(genworld)
 bordering_countries("Albania")
 
-library(sonic)
+library(genworld)
 bordering_countries("China")
 
 

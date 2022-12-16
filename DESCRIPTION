@@ -1,4 +1,4 @@
-Package: sonic
+Package: genworld
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -16,7 +16,9 @@ Roxygen: list(markdown = TRUE)
 Imports:
     magrittr,
     dplyr,
-    ggplot2
+    ggplot2,
+    tibble,
+    stats
 RoxygenNote: 7.2.1
 Depends: 
     R (>= 2.10)

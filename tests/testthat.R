@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(sonic)
+library(genworld)
 
-test_check("sonic")
+test_check("genworld")
