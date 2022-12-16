@@ -21,12 +21,12 @@ countries_lgbt_acceptance <- function(user_country_name){
     filter(country_name == user_country_name)
   return(lgbtq_acceptance)
 }
-library(ggplot2)
-
-ggplot(lgbtq_acceptance, aes(country_name, gai))+
-  geom_point()
-
-lgbtq_acceptance
+# library(ggplot2)
+#
+# ggplot(lgbtq_acceptance, aes(country_name, gai))+
+#   geom_point()
+#
+# lgbtq_acceptance
 
 # ggplot(output_table, aes(param_choice, total_emissions))+
 #   geom_line()+
