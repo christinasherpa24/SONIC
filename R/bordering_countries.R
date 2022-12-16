@@ -24,6 +24,9 @@ globalVariables(c("country_borders", "country_name"))
 #'
 
 bordering_countries <- function(user_country_name){
+  if (!(user_country_name %in% country_borders$country_name)){
+    stop("This country does not exist in the country_borders dataset. Check for misspellings or run country_borders$country_name to see a list of all country names.")
+  }
   country_borders_user <- country_borders %>%
     filter(country_name == user_country_name)
 return(country_borders_user)
