@@ -10,10 +10,10 @@ bordering_countries(user_country_name)
 \item{user_country_name}{: A country of your choosing from the bordering_countries data set (contains all countries)}
 }
 \value{
-a list of countries that border user_country_name and a data set that the user can save
+a dataset of countries that border the chosen one
 }
 \description{
-A function that takes in a country name in quotes ("") and prints a list of the countries that border it as well as a data set
+A function that takes in a country name in quotes ("") and returns a dataset of the countries that border it.
 }
 \examples{
 
