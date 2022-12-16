@@ -16,6 +16,7 @@ Roxygen: list(markdown = TRUE)
 Imports:
     magrittr,
     dplyr,
+    plotly,
     ggplot2,
     tibble,
     stats
