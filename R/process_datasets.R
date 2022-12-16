@@ -142,3 +142,19 @@
 #' }
 #' @source <https://www.kaggle.com/datasets/whenamancodes/world-happiness-report>
 "world_happiness"
+
+#' COVID vaccinations data set
+#'
+#' Data set containing COVID daily vaccinations rom 2020-2022, separated by each country.
+#'
+#' @format ## `covid_vaccinations`
+#' A data frame with 145221 rows and 3 columns:
+#' \describe{
+#'   \item{location}{Country where vaccine was administrated}
+#'   \item{date}{Date of vaccine}
+#'   \item{daily_vaccinations}{Number of doses administered daily}
+#'   ...
+#' }
+#' @source <https://www.kaggle.com/datasets/rsrishav/covid-vaccination-dataset>
+"covid_vaccinations"
+
