@@ -58,12 +58,6 @@ historical_olympics <- read.csv("data-raw/olympics_data.csv") %>%
 
 usethis::use_data(historical_olympics, overwrite = TRUE)
 
-#World happiness report
-world_happiness <- read_csv("data-raw/Data2022.csv") %>%
-  clean_names()
-
-usethis::use_data(world_happiness, overwrite = TRUE)
-
 #COVID vaccinations
 covid_vaccinations <- read_csv("data-raw/vaccinations.csv")%>%
   select(location, date, daily_vaccinations)%>%

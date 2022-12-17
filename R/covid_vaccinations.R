@@ -1,10 +1,10 @@
 globalVariables(c("location", "date","daily_vaccinations"))
 #' Daily COVID vaccination rates (Between 2020-2022)
-#'@description this function takes in a a country/territory and returns the population of the country for the years 2000, 2010,2015 and 2022
+#'@description this function takes in a country and outputs the number of daily vaccinations a country has administered from 2020-2022
 #' @param X is a country/territory that a user inputs of their choice
 #'
-#' @return a numeric vector that is the population of a country/territory for the years 2000, 2010,2015 and 2022
-#' @export
+#' @return a numeric vector that is the number of daily vaccinations a country has administered from 2020-2022
+#' @param X is a country/territory that a user inputs of their choice
 #'
 #' @importFrom magrittr "%>%"
 #' @importFrom dplyr "filter"
@@ -13,9 +13,9 @@ globalVariables(c("location", "date","daily_vaccinations"))
 #' @examples
 #' daily_vaccinations_function("Afghanistan")
 #'
-#' daily_vaccinations_function("Afghanistan")
+#' daily_vaccinations_function("Algeria")
 #'
-#' daily_vaccinations_function("Afghanistan")
+#' daily_vaccinations_function("Belgium")
 #'
 #'
 #
