@@ -7,22 +7,22 @@
 \format{
 \subsection{\code{covid_hospitalizations}}{
 
-A data frame with 145221 rows and 3 columns:
+A data frame with 32871 rows and 3 columns:
 \describe{
-\item{entity}{Country where vaccine was administrated}
-\item{indicator}{Date of vaccine}
-\item{value}{Number of doses administered daily}
+\item{entity}{Name of country}
+\item{indicator}{Type of indicator: Daily ICU Occupancy}
+\item{daily_icu_occupancy}{Number of COVID patients in ICU Daily}
 ...
 }
 }
 }
 \source{
-\url{https://www.kaggle.com/datasets/rsrishav/covid-vaccination-dataset}
+\url{https://www.kaggle.com/datasets/shivamb/daily-covid19-hospitalisation-data}
 }
 \usage{
 covid_hospitalizations
 }
 \description{
-Data set containing COVID daily vaccinations from 2020-2022, separated by each country.
+Data set containing COVID daily hospitalizations from 2020-2022, separated by each country.
 }
 \keyword{datasets}
