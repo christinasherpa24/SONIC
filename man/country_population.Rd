@@ -22,5 +22,4 @@ country_population("Algeria")
 
 country_population("Afghanistan")
 
-
 }
