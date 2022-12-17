@@ -15,7 +15,7 @@ globalVariables(c("lgbtq_acceptance", "gai"))
 #'
 #' @examples
 #' lgbt_acceptance_graph("China")
-#' lgbt_acceptance_graph("Somalia")
+#' lgbt_acceptance_graph("France")
 #'
 #'
 #' @export

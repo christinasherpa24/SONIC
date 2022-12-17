@@ -7,7 +7,7 @@
 team_sport_medal_info(team_inp)
 }
 \arguments{
-\item{team_inp:}{input team name}
+\item{team_inp}{: input team name}
 }
 \value{
 returns data set and graphs given the function
@@ -16,8 +16,6 @@ returns data set and graphs given the function
 Title
 }
 \examples{
-library(genworld)
-# Say what your function is doing
 team_sport_medal_info("China")
 
 

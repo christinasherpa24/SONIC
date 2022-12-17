@@ -10,12 +10,11 @@
 #' @importFrom dplyr "select"
 #'
 #' @examples
-#' library(sonic)
-#' world_function("Albania")
+#' country_population("Albania")
 #'
-#' world_function("Algeria")
+#' country_population("Algeria")
 #'
-#' world_function("Afghanistan")
+#' country_population("Afghanistan")
 #'
 #'
 #

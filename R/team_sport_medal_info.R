@@ -1,9 +1,9 @@
 #for historical olympics
-globalVariables(c( "team", "sport", "year", "value", "total_med"))
+globalVariables(c( "team", "sport", "year", "value", "total_med", "historical_olympics"))
 
 #' Title
 
-#' @param team_inp: input team name
+#' @param team_inp : input team name
 
 #'
 #' @return returns data set and graphs given the function
@@ -18,8 +18,6 @@ globalVariables(c( "team", "sport", "year", "value", "total_med"))
 #' @importFrom tibble "add_column"
 #'
 #' @examples
-#' library(genworld)
-#' # Say what your function is doing
 #' team_sport_medal_info("China")
 #'
 #'

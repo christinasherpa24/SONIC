@@ -7,7 +7,7 @@
 athlete_info(athlete_inp)
 }
 \arguments{
-\item{athlete_inp:}{input athlete name}
+\item{athlete_inp}{: input athlete name}
 }
 \value{
 returns data set and graphs given the function
@@ -16,7 +16,6 @@ returns data set and graphs given the function
 Title
 }
 \examples{
-library(genworld)
 athlete_info("Nesar Ahmad Bahawi")
 
 

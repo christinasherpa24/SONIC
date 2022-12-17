@@ -13,10 +13,8 @@ globalVariables(c("country_borders", "country_name"))
 #'
 #' @examples
 #'
-#'library(genworld)
 #'bordering_countries("Albania")
 #'
-#'library(genworld)
 #'bordering_countries("China")
 #'
 #'

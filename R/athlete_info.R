@@ -1,9 +1,9 @@
 #for historical olympics
-globalVariables(c("name", "event", "games", "city", "medal"))
+globalVariables(c("name", "event", "games", "city", "medal", "historical_olympics"))
 
 #' Title
 #'
-#' @param athlete_inp: input athlete name
+#' @param athlete_inp : input athlete name
 
 #'
 #' @return returns data set and graphs given the function
@@ -13,7 +13,6 @@ globalVariables(c("name", "event", "games", "city", "medal"))
 #' @importFrom dplyr "select"
 #'
 #' @examples
-#' library(genworld)
 #' athlete_info("Nesar Ahmad Bahawi")
 #'
 #'

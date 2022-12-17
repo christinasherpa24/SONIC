@@ -17,7 +17,7 @@ A function that takes in a country name and returns a graph of the GAI's of all 
 }
 \examples{
 lgbt_acceptance_graph("China")
-lgbt_acceptance_graph("Somalia")
+lgbt_acceptance_graph("France")
 
 
 }

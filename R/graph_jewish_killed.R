@@ -1,4 +1,4 @@
-globalVariables(c("country", "type", "type", "number"))
+globalVariables(c("country", "type", "type", "number", "jewish_deaths"))
 #' graph_jewish_killed Function
 #'
 #' @description A function that takes a European country in quotes ("") and returns a graph of the Jewish people killed during the Holocaust compared to the Jewish people alive before the Holocaust.

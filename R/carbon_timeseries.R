@@ -1,4 +1,4 @@
-globalVariables(c("country", "year", "value"))
+globalVariables(c("country", "year", "value", "carbon_emission"))
 
 #' Title
 #'
@@ -8,8 +8,6 @@ globalVariables(c("country", "year", "value"))
 #' @return a line graph of co2 emissions throughout the years for a specific country of the user's choice
 #'
 #' @examples
-#' library(genworld)
-#' # Say what your function is doing
 #' carbon_timeseries("Albania")
 #'
 #' @importFrom magrittr "%>%"
