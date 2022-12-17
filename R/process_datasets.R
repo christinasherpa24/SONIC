@@ -11,14 +11,14 @@
 #'   \item{country_territory}{Name of the country/territory}
 #'   \item{capital}{Capital Name}
 #'   \item{continent}{Continent Name}
-#'   \item{x2022_population}{Population of country in 2022}
-#'   \item{x2020_population}{Population of country in 2020}
-#'   \item{x2015_population}{Population of country in 2015}
-#'   \item{x2010_population}{Population of country in 2010}
-#'   \item{x2000_population}{Population of country in 2000}
-#'   \item{x1990_population}{Population of country in 1990}
-#'   \item{x1980_population}{Population of country in 1980}
-#'   \item{x1970_population}{Population of country in 1970}
+#'   \item{population_2022}{Population of country in 2022}
+#'   \item{population_2020}{Population of country in 2020}
+#'   \item{population_2015}{Population of country in 2015}
+#'   \item{population_2010}{Population of country in 2010}
+#'   \item{population_2000}{Population of country in 2000}
+#'   \item{population_1990}{Population of country in 1990}
+#'   \item{population_1980}{Population of country in 1980}
+#'   \item{population_1970}{Population of country in 1970}
 #'   \item{area_km2}{Area size of country/territory}
 #'   \item{density_per_km2}{Population density per square km}
 #'   \item{growth_rate}{Population growth rate for each country}
