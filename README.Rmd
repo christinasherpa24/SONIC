@@ -45,6 +45,19 @@ You can install the development version of genworld like so:
 devtools::install_github("christinasherpa24/genworld")
 ```
 
+## Included Datasets
+
+We have a total of 8 datasets in this package: 
+
+- `carbon_emissions` : Carbon emissions for every country from 1974 on wards
+- `historical_olympics` : Historical Olympics data from 1896-2016
+- `lgbtq_acceptance` : GAI (2,750 surveys conducted over 30 years) for countries
+- `country_borders` : Information about countries that boarder each other
+- `jewish_deaths` : Information pertaining to Jewish deaths in Europe from the Holocaust
+- `world_population` : Information related to world population over the years for each country/region
+- `covid_vaccinations` : Daily COVID vaccines administered in each country from 2020-onwards
+- `covid_hospitalizations` : Daily COVID hospitalisations in each country from 2020-onwards 
+
 
 ## Examples
 
@@ -52,24 +65,88 @@ Here are examples of how to run our functions and what they do.
 
 This is an example of the function **bordering_countries**. It allows users to enter a country name, for example "Albania" and then it will return a list of all the countries that border that country.
 
-```{r ex1}
-library(genworld)
-bordering_countries("Albania")
-```
 
 The function **carbon_timeseries** takes in a country name such as "Nepal" and returns a line graph on the trend of carbon emissions throughout the years and also lists out the total carbon emissions.
-```{r ex2}
+
+```{r ex1}
 library(genworld)
 carbon_timeseries("Nepal")
 ```
 
-The function **country_population** takes in a country name that a user inputs, and returns the population of the chosen country in 2000, 2010,2015 and 2020. 
+
+```{r ex2}
+library(genworld)
+athlete_info("Nesar Ahmad Bahawi")
+```
+
+
 ```{r ex3}
 library(genworld)
-country_population("Algeria")
+team_medal_info("United States")
 ```
+
+
+```{r ex4}
+library(genworld)
+sport_medal_info("United States", "Basketball")
+```
+
+
+```{r ex5}
+library(genworld)
+team_sport_medal_info("China")
+```
+
+Naomi's
+
+This is an example of the function **countries_lgbt_acceptance**. It allows users to enter a country name, for example "France" and then it will outputthe GAI for that country, which indicates the acceptance of LGBTQ+ people
+
+```{r ex6}
+library(genworld)
+countries_lgbt_acceptance("France")
+```
+
+This is an example of the function **lgbt_acceptance_graph**. It allows users to enter a country name, for example "France" and then it will output the graph of the GAI compared to the GAI's of other countries in the world. 
+
+```{r ex7}
+library(genworld)
+lgbt_acceptance_graph("France")
+```
+
+
+This is an example of the function **bordering_countries**. It allows users to enter a country name, for example “Albania” and then it will return a list of all the countries that border that country.
+
+```{r ex8}
+library(sonic)
+bordering_countries("Albania")
+```
+
+
+This is an example of the function **graph_jewish_killed**. It allows users to enter a country name, for example "France" and then it will return a bar chart of Jewish people killed during the Holocaust compared to the amount of Jewish people alive before the Holocaust
+
+```{r ex9}
+library(genworld)
+graph_jewish_killed("France")
+```
+
+
+
+The function **country_population** takes in a country name that a user inputs, and returns the population of the chosen country in 2000, 2010,2015 and 2022. 
+
+```{r ex10}
+library(genworld)
+#country_population('Algeria')
+```
+
+
+The function **daily_vaccinations_function** that takes in a country as an input and outputs the number of doses administered for the country chosen from 2020-present 
+```{r ex11}
+library(genworld)
+#daily_vaccinations_function('Algeria')
+```
+
+
 
 ## Package Proposal 
 
 We intend to create a package that will allow users to get information about a variety of issues for specific countries. So far, we have information about geography (bordering countries), carbon emissions, and population (from 2000-2022). We plan to add much more information such as women's rights which can include aspects such as a women's right to vote or access to abortion as well as LGBTQ+ matters. 
-
