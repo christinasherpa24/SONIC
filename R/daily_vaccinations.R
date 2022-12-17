@@ -1,4 +1,4 @@
-globalVariables(c("location", "date","daily_vaccinations"))
+globalVariables(c("location", "date","daily_vaccinations", "covid_vaccinations"))
 #' Daily COVID vaccination rates (Between 2020-2022)
 #'@description this function takes in a country and outputs the number of daily vaccinations a country has administered from 2020-2022
 #' @param X is a country/territory that a user inputs of their choice
