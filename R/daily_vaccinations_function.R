@@ -16,11 +16,12 @@ globalVariables(c("location", "date","daily_vaccinations", "covid_vaccinations")
 #'
 #' @export
 #
-if (!(covid_vaccination  %in% covid_vaccinations$location)){
-  stop("This country does not exist in the world population dataset. Check for misspellings or run covid_vaccinations$location) to see a list of all country names.")
-}
+
 
 daily_vaccinations_function <- function(X){
+  if (!(X  %in% covid_vaccinations$location)){
+    stop("This country does not exist in the covid_vaccinations dataset. Check for misspellings or run covid_vaccinations$location) to see a list of all country names.")
+  }
   covid_vaccination <- covid_vaccinations %>%
     filter(location == X) %>%
     select(location, date, daily_vaccinations)

@@ -113,14 +113,14 @@ The function **country_population** takes in a country name that a user inputs, 
 
 ```{r ex10}
     
-#country_population('Algeria')
+country_population('Algeria')
 ```
 
 
 The function **daily_vaccinations_function** that takes in a country as an input and outputs the number of doses administered for the country chosen from 2020-present 
 ```{r ex11}
     
-#daily_vaccinations_function('Algeria')
+daily_vaccinations_function('Algeria')
 ```
 
 
