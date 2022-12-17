@@ -31,8 +31,7 @@
 
 #' World Carbon Emissions Dataset
 #'
-#' A subset of data from the World Health Organization Global Tuberculosis
-#' Report ...
+#' Dataset consisting information of each country's carbon emissions from 1975-2019
 #'
 #' @format ## `carbon_emission`
 #' A data frame with 2,203 rows and 7 columns:
@@ -92,8 +91,7 @@
 
 #' Historial Olympics Dataset: 1896 - 2016
 #'
-#' A subset of data from the World Health Organization Global Tuberculosis
-#' Report ...
+#' Historical Olympics data for each country's medal winnings/participation from 1886-2016
 #'
 #' @format ## `historical_olympics`
 #' A data frame with 2,203 rows and 7 columns:
