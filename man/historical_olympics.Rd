@@ -35,7 +35,6 @@ A data frame with 2,203 rows and 7 columns:
 historical_olympics
 }
 \description{
-A subset of data from the World Health Organization Global Tuberculosis
-Report ...
+Historical Olympics data for each country's medal winnings/participation from 1886-2016
 }
 \keyword{datasets}

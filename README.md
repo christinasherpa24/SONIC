@@ -18,11 +18,11 @@ Christina Sherpa, Sariah Akhdar, Naomi Giancola
 
 ## Purpose
 
-The purpose of this package is to provide information about the
-countries of the world. The functions serve two purposes. First, gain
-information about a specific country. Second, gain information about a
-specific issue for all countries (ex: abortion access or environmental
-issues).
+The purpose of this package is to provide information about different
+countries around the world. It includes data on various aspects of each
+country, such as the LGBTQ acceptance rate, COVID statistics, and
+Olympic participation. Users can use the package’s functions to search
+for specific countries and learn more about them.
 
 ## Target
 
@@ -149,6 +149,10 @@ users to enter a country name, for example “France” and then it will
 output the graph of the GAI compared to the GAI’s of other countries in
 the world.
 
+\*Note: The graph is made using plotly which does not appear in ReadMe.
+To see the graph, please see the help file (?lgbt_acceptance_graph) and
+run the examples.
+
 ``` r
 library(genworld)
 lgbt_acceptance_graph("France")
@@ -163,13 +167,6 @@ users to enter a country name, for example “Albania” and then it will
 return a list of all the countries that border that country.
 
 ``` r
-library(sonic)
-#> 
-#> Attaching package: 'sonic'
-#> The following objects are masked from 'package:genworld':
-#> 
-#>     bordering_countries, carbon_timeseries, countries_lgbt_acceptance,
-#>     world_population
 bordering_countries("Albania")
 #>   xcountry_code country_name country_border_code country_border_name
 #> 1            AL      Albania                  GR              Greece
@@ -181,7 +178,11 @@ bordering_countries("Albania")
 This is an example of the function **graph_jewish_killed**. It allows
 users to enter a country name, for example “France” and then it will
 return a bar chart of Jewish people killed during the Holocaust compared
-to the amount of Jewish people alive before the Holocaust
+to the amount of Jewish people alive before the Holocaust.
+
+\*Note: The graph is made using plotly which does not appear in ReadMe.
+To see the graph, please see the help file (?graph_jewish_killed) and
+run the examples.
 
 ``` r
 library(genworld)
@@ -198,7 +199,12 @@ inputs, and returns the population of the chosen country in 2000,
 
 ``` r
 library(genworld)
-#country_population('Algeria')
+country_population('Algeria')
+#> # A tibble: 1 × 5
+#>   country_territory population_2020 population_2015 population_2010 population…¹
+#>   <chr>                       <dbl>           <dbl>           <dbl>        <dbl>
+#> 1 Algeria                  43451666        39543154        35856344     30774621
+#> # … with abbreviated variable name ¹​population_2000
 ```
 
 The function **daily_vaccinations_function** that takes in a country as
@@ -207,7 +213,21 @@ chosen from 2020-present
 
 ``` r
 library(genworld)
-#daily_vaccinations_function('Algeria')
+daily_vaccinations_function('Algeria')
+#> # A tibble: 584 × 3
+#>    location date       daily_vaccinations
+#>    <chr>    <date>                  <dbl>
+#>  1 Algeria  2021-01-29                 NA
+#>  2 Algeria  2021-01-30                 30
+#>  3 Algeria  2021-01-31               1889
+#>  4 Algeria  2021-02-01               2509
+#>  5 Algeria  2021-02-02               2819
+#>  6 Algeria  2021-02-03               3005
+#>  7 Algeria  2021-02-04               3129
+#>  8 Algeria  2021-02-05               3217
+#>  9 Algeria  2021-02-06               3748
+#> 10 Algeria  2021-02-07               3748
+#> # … with 574 more rows
 ```
 
 ## Package Proposal

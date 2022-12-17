@@ -30,7 +30,7 @@ Christina Sherpa, Sariah Akhdar, Naomi Giancola
 
 ## Purpose
 
-The purpose of this package is to provide information about the countries of the world. The functions serve two purposes. First, gain information about a specific country. Second, gain information about a specific issue for all countries (ex: abortion access or environmental issues).
+The purpose of this package is to provide information about different countries around the world. It includes data on various aspects of each country, such as the LGBTQ acceptance rate, COVID statistics, and Olympic participation. Users can use the package's functions to search for specific countries and learn more about them.
 
 ## Target
 
@@ -119,7 +119,6 @@ lgbt_acceptance_graph("France")
 This is an example of the function **bordering_countries**. It allows users to enter a country name, for example “Albania” and then it will return a list of all the countries that border that country.
 
 ```{r ex8}
-library(sonic)
 bordering_countries("Albania")
 ```
 
@@ -139,14 +138,14 @@ The function **country_population** takes in a country name that a user inputs, 
 
 ```{r ex10}
 library(genworld)
-#country_population('Algeria')
+country_population('Algeria')
 ```
 
 
 The function **daily_vaccinations_function** that takes in a country as an input and outputs the number of doses administered for the country chosen from 2020-present 
 ```{r ex11}
 library(genworld)
-#daily_vaccinations_function('Algeria')
+daily_vaccinations_function('Algeria')
 ```
 
 

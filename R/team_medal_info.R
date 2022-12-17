@@ -25,6 +25,9 @@ globalVariables(c( "medal", "team", "sport", "year", "value", "total_med", "hist
 
 
 team_medal_info<- function(team_inp){
+  if (!(team_inp %in% historical_olympics$team)){
+    stop("This entry does not exist in the historical_olympics dataset. Check for misspellings or run historical_olympics$team to see a list of all valid inputs")
+  }
   team_dataset<-historical_olympics %>%
     filter(team == team_inp) %>%
     na.omit() %>%

@@ -1,5 +1,6 @@
 ---
 title: "genworld"
+author: "Christina Sherpa, Naomi Giancola, Sariah Akhdhar"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{genworld}
@@ -7,17 +8,121 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
+## About genworld
 
-```{r setup}
+The purpose of this package is to provide information about different countries around the world. It includes data on various aspects of each country, such as the LGBTQ acceptance rate, COVID statistics, and Olympic participation. Users can use the package's functions to search for specific countries and learn more about them.
+
+
+## Included Datasets
+
+We have a total of 8 datasets in this package: 
+
+- `carbon_emissions` : Carbon emissions for every country from 1974 on wards
+- `historical_olympics` : Historical Olympics data from 1896-2016
+- `lgbtq_acceptance` : GAI (2,750 surveys conducted over 30 years) for countries
+- `country_borders` : Information about countries that boarder each other
+- `jewish_deaths` : Information pertaining to Jewish deaths in Europe from the Holocaust
+- `world_population` : Information related to world population over the years for each country/region
+- `covid_vaccinations` : Daily COVID vaccines administered in each country from 2020-onwards
+- `covid_hospitalizations` : Daily COVID hospitalizations in each country from 2020-onwards 
+
+
+## Examples
+
+Here are examples of how to run our functions and what they do. 
+
+```{r}
 library(genworld)
-
 ```
 
 
-This is my vignette!
+The function **carbon_timeseries** takes in a country name such as "Nepal" and returns a line graph on the trend of carbon emissions throughout the years and also lists out the total carbon emissions.
+
+```{r ex1}
+carbon_timeseries("Nepal")
+```
+
+The function **athlete_info** takes in an Olympic athlete (1896-2016) and returns a dataset with their appearance, sport, year, country, and whether they won a medal or not. 
+
+```{r ex2}
+    
+athlete_info("Nesar Ahmad Bahawi")
+```
+
+
+The function **team_medal_info** takes in a country participating in the Olympics (1896-2016) and outputs a plot of number of medal won each year the country has participated. 
+
+```{r ex3}
+team_medal_info("United States")
+```
+
+The function **sport_medal_info** takes a country as well as a sport in the Olympics (1896-2016) and outputs a plot of number of medal won per year for said sport by said country. 
+
+```{r ex4}
+    
+sport_medal_info("United States", "Basketball")
+```
+
+
+The function **team_sport_medal_info** takes in a country and losts all the sports and mubers of total medals won (1896-2016).
+
+```{r ex5}
+    
+team_sport_medal_info("China")
+```
+
+Naomi's
+
+This is an example of the function **countries_lgbt_acceptance**. It allows users to enter a country name, for example "France" and then it will outputthe GAI for that country, which indicates the acceptance of LGBTQ+ people
+
+```{r ex6}
+    
+countries_lgbt_acceptance("France")
+```
+
+This is an example of the function **lgbt_acceptance_graph**. It allows users to enter a country name, for example "France" and then it will output the graph of the GAI compared to the GAI's of other countries in the world. 
+
+*Note: The graph is made using plotly which does not appear in ReadMe. To see the graph, please see the help file (?lgbt_acceptance_graph) and run the examples. 
+
+```{r ex7}
+    
+lgbt_acceptance_graph("France")
+```
+
+
+This is an example of the function **bordering_countries**. It allows users to enter a country name, for example “Albania” and then it will return a list of all the countries that border that country.
+
+```{r ex8}
+
+bordering_countries("Albania")
+```
+
+
+This is an example of the function **graph_jewish_killed**. It allows users to enter a country name, for example "France" and then it will return a bar chart of Jewish people killed during the Holocaust compared to the amount of Jewish people alive before the Holocaust.
+
+*Note: The graph is made using plotly which does not appear in ReadMe. To see the graph, please see the help file (?graph_jewish_killed) and run the examples. 
+
+```{r ex9}
+    
+graph_jewish_killed("France")
+```
+
+
+
+The function **country_population** takes in a country name that a user inputs, and returns the population of the chosen country in 2000, 2010,2015 and 2022. 
+
+```{r ex10}
+    
+#country_population('Algeria')
+```
+
+
+The function **daily_vaccinations_function** that takes in a country as an input and outputs the number of doses administered for the country chosen from 2020-present 
+```{r ex11}
+    
+#daily_vaccinations_function('Algeria')
+```
+
+
+
+
