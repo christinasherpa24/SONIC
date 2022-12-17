@@ -20,10 +20,13 @@ globalVariables(c("country_territory", "population_2020", "population_2015", "po
 #'
 #' @export
 #
+if (!(population_user %in% world_population$country_territory)){
+  stop("This country does not exist in the world population dataset. Check for misspellings or run world_population$country_territory to see a list of all country names.")
+}
 country_population <- function(X){
   population_user <- world_population %>%
     filter(country_territory == X) %>%
-    select(country_territory, population_2020, population_2015, population_2010, population_2000)
+    select(country_territory, population_2022, population_2015, population_2010, population_2000)%>%
 
   return(population_user)
 }
