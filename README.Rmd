@@ -135,7 +135,7 @@ The function **country_population** takes in a country name that a user inputs, 
 
 ```{r ex10}
 library(genworld)
-#country_population('Algeria')
+country_population('Algeria')
 ```
 
 
