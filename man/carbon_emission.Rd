@@ -27,7 +27,6 @@ A data frame with 2,203 rows and 7 columns:
 carbon_emission
 }
 \description{
-A subset of data from the World Health Organization Global Tuberculosis
-Report ...
+Dataset consisting information of each country's carbon emissions from 1975-2019
 }
 \keyword{datasets}
