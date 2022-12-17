@@ -1,4 +1,4 @@
-globalVariables(c("country_territory", "population_2020", "population_2015", "population_2010", "population_2000", "world_population"))
+globalVariables(c("country_territory", "population_2020", "population_2015", "population_2010", "population_2000", "world_population", "population_2022"))
 
 #' World Population (Between 2000-2022)
 #'@description this function takes in a a country/territory and returns the population of the country for the years 2000, 2010,2015 and 2022
@@ -20,13 +20,14 @@ globalVariables(c("country_territory", "population_2020", "population_2015", "po
 #'
 #' @export
 #
-if (!(population_user %in% world_population$country_territory)){
-  stop("This country does not exist in the world population dataset. Check for misspellings or run world_population$country_territory to see a list of all country names.")
-}
+
 country_population <- function(X){
+  if (!(X %in% world_population$country_territory)){
+    stop("This country does not exist in the world population dataset. Check for misspellings or run world_population$country_territory to see a list of all country names.")
+  }
   population_user <- world_population %>%
     filter(country_territory == X) %>%
-    select(country_territory, population_2022, population_2015, population_2010, population_2000)%>%
+    select(country_territory, population_2022, population_2015, population_2010, population_2000)
 
   return(population_user)
 }

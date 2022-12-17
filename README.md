@@ -9,7 +9,7 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/genworld)](https://CRAN.R-project.org/package=genworld)
-[![R-CMD-check](https://github.com/christinasherpa24/genworld/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christinasherpa24/genworld/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 ## Team Members
@@ -201,9 +201,9 @@ inputs, and returns the population of the chosen country in 2000,
 library(genworld)
 country_population('Algeria')
 #> # A tibble: 1 × 5
-#>   country_territory population_2020 population_2015 population_2010 population…¹
+#>   country_territory population_2022 population_2015 population_2010 population…¹
 #>   <chr>                       <dbl>           <dbl>           <dbl>        <dbl>
-#> 1 Algeria                  43451666        39543154        35856344     30774621
+#> 1 Algeria                  44903225        39543154        35856344     30774621
 #> # … with abbreviated variable name ¹​population_2000
 ```
 
