@@ -119,32 +119,6 @@
 "historical_olympics"
 
 
-#' World Happiness data set
-#'
-#' Data set containing information pertaining to world happiness and statistics on some factors that may influence its ratings
-#'
-#' @format ## `world_happiness`
-#' A data frame with 2089 rows and 12 columns:
-#' \describe{
-#'   \item{country_name}{Name of country}
-#'   \item{year}{Year}
-#'   \item{life_ladder}{self rating of life}
-#'   \item{log_gdp_per_capita}{Capital Name}
-#'   \item{social_support}{Social Support}
-#'   \item{healthy_life_expectancy_at_birth}{Life Expectancy at birth}
-#'   \item{freedom_to_make_life_choices}{Freedom}
-#'   \item{generosity}{Generosity}
-#'   \item{perceptions_of_corruption}{existence of corruption}
-#'   \item{positive_affect}{Positive effect}
-#'   \item{Negative Effect}{Negative effect}
-#'   \item{confidence_in_national_government}{Confidence in government}
-#'   ...
-#' }
-#' @source <https://www.kaggle.com/datasets/whenamancodes/world-happiness-report>
-"world_happiness"
-
-
-
 #' Jewish Deaths Data Set
 #'
 #' Data set containing information pertaining to Jewish deaths in Europe from the Holocaust
@@ -164,7 +138,7 @@
 
 #' COVID vaccinations data set
 #'
-#' Data set containing COVID daily vaccinations rom 2020-2022, separated by each country.
+#' Data set containing COVID daily vaccinations from 2020-2022, separated by each country.
 #'
 #' @format ## `covid_vaccinations`
 #' A data frame with 145221 rows and 3 columns:
@@ -176,4 +150,19 @@
 #' }
 #' @source <https://www.kaggle.com/datasets/rsrishav/covid-vaccination-dataset>
 "covid_vaccinations"
+
+#' COVID hospitalizations data set
+#'
+#' Data set containing COVID daily vaccinations from 2020-2022, separated by each country.
+#'
+#' @format ## `covid_hospitalizations`
+#' A data frame with 145221 rows and 3 columns:
+#' \describe{
+#'   \item{entity}{Country where vaccine was administrated}
+#'   \item{indicator}{Date of vaccine}
+#'   \item{value}{Number of doses administered daily}
+#'   ...
+#' }
+#' @source <https://www.kaggle.com/datasets/rsrishav/covid-vaccination-dataset>
+"covid_hospitalizations"
 

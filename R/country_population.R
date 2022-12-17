@@ -1,3 +1,4 @@
+globalVariables(c("country_territory", "population_2020", "population_2015", "population_2010", "population_2000"))
 #' World Population (Between 2000-2022)
 #'@description this function takes in a a country/territory and returns the population of the country for the years 2000, 2010,2015 and 2022
 #' @param X is a country/territory that a user inputs of their choice

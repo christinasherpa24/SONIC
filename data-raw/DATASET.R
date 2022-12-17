@@ -72,3 +72,9 @@ covid_vaccinations <- read_csv("data-raw/vaccinations.csv")%>%
 
 usethis::use_data(covid_vaccinations, overwrite = TRUE)
 
+#COVID hospitalizations
+covid_hospitalizations <- read_csv("data-raw/covid-hospitalizations.csv")%>%
+  select(entity, indicator,value)%>%
+  clean_names()
+
+usethis::use_data(covid_hospitalizations, overwrite = TRUE)
