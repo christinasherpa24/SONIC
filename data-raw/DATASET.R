@@ -64,13 +64,11 @@ world_happiness <- read_csv("data-raw/Data2022.csv") %>%
 
 usethis::use_data(world_happiness, overwrite = TRUE)
 
-#Holocaust Date
-
-options(scipen = 100)
-
-jewish_deaths <- read.csv("data-raw/jewish_deaths_tidy.csv") %>%
+#COVID vaccinations
+covid_vaccinations <- read_csv("data-raw/vaccinations.csv")%>%
+  select(location, date, daily_vaccinations)%>%
   clean_names()
 
 
-usethis::use_data(jewish_deaths, overwrite = TRUE)
+usethis::use_data(covid_vaccinations, overwrite = TRUE)
 
