@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# genworld
+# genworld <img src="data-raw/hex_sticker/hex-genworld.png" align="right" height=140/>
 
 <!-- badges: start -->
 
