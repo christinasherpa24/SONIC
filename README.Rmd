@@ -97,7 +97,6 @@ library(genworld)
 team_sport_medal_info("China")
 ```
 
-Naomi's
 
 This is an example of the function **countries_lgbt_acceptance**. It allows users to enter a country name, for example "France" and then it will outputthe GAI for that country, which indicates the acceptance of LGBTQ+ people
 
