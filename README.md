@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+experimental](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/genworld)](https://CRAN.R-project.org/package=genworld)
 [![R-CMD-check](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christinasherpa24/SONIC/actions/workflows/R-CMD-check.yaml)
@@ -229,12 +229,3 @@ daily_vaccinations_function('Algeria')
 #> 10 Algeria  2021-02-07               3748
 #> # … with 574 more rows
 ```
-
-## Package Proposal
-
-We intend to create a package that will allow users to get information
-about a variety of issues for specific countries. So far, we have
-information about geography (bordering countries), carbon emissions, and
-population (from 2000-2022). We plan to add much more information such
-as women’s rights which can include aspects such as a women’s right to
-vote or access to abortion as well as LGBTQ+ matters.
