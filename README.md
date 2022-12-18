@@ -130,7 +130,6 @@ team_sport_medal_info("China")
     #> [[2]]
     #> [1] 34
 
-Naomi’s
 
 This is an example of the function **countries_lgbt_acceptance**. It
 allows users to enter a country name, for example “France” and then it
