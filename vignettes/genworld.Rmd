@@ -1,6 +1,6 @@
 ---
 title: "genworld"
-author: "Christina Sherpa, Naomi Giancola, Sariah Akhdhar"
+author: "Christina Sherpa, Naomi Giancola, Sariah Akhdar"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{genworld}
