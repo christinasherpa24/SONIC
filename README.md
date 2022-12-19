@@ -66,10 +66,6 @@ We have a total of 8 datasets in this package:
 
 Here are examples of how to run our functions and what they do.
 
-This is an example of the function **bordering_countries**. It allows
-users to enter a country name, for example “Albania” and then it will
-return a list of all the countries that border that country.
-
 The function **carbon_timeseries** takes in a country name such as
 “Nepal” and returns a line graph on the trend of carbon emissions
 throughout the years and also lists out the total carbon emissions.
