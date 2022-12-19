@@ -73,11 +73,14 @@ library(genworld)
 carbon_timeseries("Nepal")
 ```
 
+The function **athlete_info** takes in a athlete participating in the Olympics (1896-2016) and returns a list of their participation year, games, sports, team, etc and whether they won a medal or not. 
 
 ```{r ex2}
 library(genworld)
 athlete_info("Nesar Ahmad Bahawi")
 ```
+
+The function **team_medal_info** takes in a team participating in the Olympics (1896-2016) and returns a graph of numbers of medals (bronze,silver, or gold) for each participating year. 
 
 
 ```{r ex3}
@@ -85,12 +88,15 @@ library(genworld)
 team_medal_info("United States")
 ```
 
+The function **sport_medal_info** takes in a participating counrty as well as sport and outputs a graph on number of medal won by said country for said sport from 1896-2016. 
 
 ```{r ex4}
 library(genworld)
 sport_medal_info("United States", "Basketball")
 ```
 
+
+The function **team_sport_medal_info** takes in a participating country (Olympics 1896-2016) and outputs a graph on number of medals won by said country for all sports they ave participated in.  
 
 ```{r ex5}
 library(genworld)

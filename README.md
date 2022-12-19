@@ -86,6 +86,10 @@ carbon_timeseries("Nepal")
     #> [[2]]
     #> [1] 69231
 
+The function **athlete_info** takes in a athlete participating in the
+Olympics (1896-2016) and returns a list of their participation year,
+games, sports, team, etc and whether they won a medal or not.
+
 ``` r
 library(genworld)
 athlete_info("Nesar Ahmad Bahawi")
@@ -93,6 +97,10 @@ athlete_info("Nesar Ahmad Bahawi")
 #> 1 Nesar Ahmad Bahawi Taekwondo Men's Featherweight 2008 Summer Beijing  <NA>
 #> 2 Nesar Ahmad Bahawi  Taekwondo Men's Welterweight 2012 Summer  London  <NA>
 ```
+
+The function **team_medal_info** takes in a team participating in the
+Olympics (1896-2016) and returns a graph of numbers of medals
+(bronze,silver, or gold) for each participating year.
 
 ``` r
 library(genworld)
@@ -106,6 +114,10 @@ team_medal_info("United States")
     #> [[2]]
     #> [1] 105
 
+The function **sport_medal_info** takes in a participating counrty as
+well as sport and outputs a graph on number of medal won by said country
+for said sport from 1896-2016.
+
 ``` r
 library(genworld)
 sport_medal_info("United States", "Basketball")
@@ -118,6 +130,10 @@ sport_medal_info("United States", "Basketball")
     #> [[2]]
     #> [1] 18
 
+The function **team_sport_medal_info** takes in a participating country
+(Olympics 1896-2016) and outputs a graph on number of medals won by said
+country for all sports they ave participated in.
+
 ``` r
 library(genworld)
 team_sport_medal_info("China")
@@ -129,7 +145,6 @@ team_sport_medal_info("China")
     #> 
     #> [[2]]
     #> [1] 34
-
 
 This is an example of the function **countries_lgbt_acceptance**. It
 allows users to enter a country name, for example “France” and then it
